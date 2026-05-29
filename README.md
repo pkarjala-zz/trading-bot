@@ -1,26 +1,25 @@
-# trading-bot
+# eToro Trading Bot
 
-Automated trading bot for ETrade (USA) and cryptocurrency exchanges.
+Automated trading bot for eToro (demo account).
 
-## Status
+## Setup
 
-🚧 Alustavasti pystyssä — ei vielä toiminnallinen.
-
-## Architecture
-
-```
-trading-bot/
-├── etrade/          # ETrade API integration
-├── exchange/        # Crypto exchange adapters (Kraken, Binance, etc.)
-├── strategies/      # Trading strategies
-├── core/            # Shared trading engine
-└── README.md
+```bash
+pip install requests websocket-client
+export ETORO_API_KEY="your_public_api_key"
+export ETORO_USER_KEY="your_user_key"
+python test_etoro.py
 ```
 
-## TODO
+## Structure
 
-- [ ] ETrade API-yhteys ja auth
-- [ ] Crypto exchange adapter (alustavasti Kraken)
-- [ ] Perus momentum-strategia
-- [ ] Risk management
-- [ ] Backtesting framework
+```
+etoro_client.py   # eToro REST + WebSocket API client
+test_etoro.py     # Connection test
+requirements.txt  # Dependencies
+.env.example      # Env template
+```
+
+## ⚠️ Demo Only
+
+Demo account only — no real trades.
