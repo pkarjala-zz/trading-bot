@@ -1,0 +1,18 @@
+[project]
+name = "trading-bot"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas",
+    "numpy",
+    "python-dotenv",
+    "sqlalchemy",
+    "ccxt",
+    "requests",
+    "apscheduler",
+    "python-telegram-bot==20.7",
+    "streamlit",
+    "plotly",
+    "backtrader",
+    "python-dateutil",
+]

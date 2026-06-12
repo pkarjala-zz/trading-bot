@@ -1,0 +1,25 @@
+# Core
+pandas
+numpy
+python-dotenv
+sqlalchemy
+
+# Data
+ccxt
+requests
+
+# Scheduling
+apscheduler
+
+# Telegram
+python-telegram-bot==20.7
+
+# Dashboard
+streamlit
+plotly
+
+# Backtesting
+backtrader
+
+# Utils
+python-dateutil
